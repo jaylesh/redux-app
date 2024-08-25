@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    max-width: 500px;
+    background: antiquewhite;
+    margin: auto;
+}
+
+.container .container__task{
+   padding: 3rem;
+   outline: 1px solid black; 
+}
+.container .container__task .container__task-inner form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .container__task .container__task-inner form input{
+    width: 14rem;
+    padding: .5rem;
+}
+
+.container .container__task .container__task-inner form button{
+    padding: .5rem;
+}
+
+.container .container__task ul li{
+    font-size: 18px;
+    padding: 0.4rem;
+}
+
+.container .container__task .options{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .container__task .options a{
+    padding: 0.5rem 0;
+}
