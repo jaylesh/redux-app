@@ -1,7 +1,7 @@
 {
-  "name": "todos-with-undo",
+  "name": "redux app tasks",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "react-scripts": "^5.0.1"
   },
